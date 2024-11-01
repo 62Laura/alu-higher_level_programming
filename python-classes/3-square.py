@@ -3,7 +3,9 @@
 This module defines a Square class.
 """
 class Square:
-
+    """
+    A class used to represent a Square.
+    """
     def __init__(self, size=0):
         """
         this initalises the class with size attribute ,thus validate the input
