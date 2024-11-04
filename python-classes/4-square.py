@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+"""Create a square """
 
-"""creates a square"""
 
 class Square:
-
-    ''' Instatiates a class square '''
+    '''
+    Instantiates a square
+    with  a private Instance attribute: size
+    '''
+ 
 
 def __init__(self,size=0):
 
