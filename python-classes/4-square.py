@@ -12,7 +12,7 @@ class Square:
 
     def __init__(self, size=0):
         """
-        Initialize the square with size attribute.
+        Initialize the square.
         """
         self.__size = size
 
@@ -38,5 +38,4 @@ class Square:
         """
         Calculate the area of the square.
         """
-           square_area = self.__size ** 2
-        return square_area
+        return self.__size**2
