@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 
-"""createa a square"""
+"""creates a square"""
 
 class Square:
+
     ''' Instatiates a class square '''
+
 def __init__(self,size=0):
+
 '''init size'''
+
 self.__size = size
+
    @property
     def size(self):
         "returns the size att"
